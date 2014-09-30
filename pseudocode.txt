@@ -1,0 +1,37 @@
+Pseudocode
+
+I. Capture date from users on log-in with fb button. 
+
+    1) $(#user_input).on('submit', saveDate)
+    2) store this date as a variable, var userDate = $(#date).val();
+
+II. Determine if user date is within range of photo date. 
+
+    1) If userDate is within range of photoDate, proceed to compare months and years. 
+    2) Else, display an alert that says "come on, you're not that old. Keep your time travel within reason."
+
+III. Compare userDate with photoDate 
+
+    1) var userDate- find the month and year with getMonth() and getYear()
+    2) store under userMonth and photoMonth// userYear photoYear
+    2) If userMonth == photoMonth && photoYear == userYear, display...
+
+
+
+
+
+put a loop 
+for (i=0; i<response["data"].length; i++)
+var photoDate = response["data"][i]["created_time"]
+
+
+do some conversion for comparing dates. parse out years, months, and dates. find a way to compare dates. 
+
+check for months and years. 
+
+
+
+
+
+
+
