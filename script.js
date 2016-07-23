@@ -4,7 +4,7 @@ var photoArray = [];
 
       window.fbAsyncInit = function() {
         FB.init({
-          appId      : '801035723280309',
+          appId      : 'XXXXXX',
           xfbml      : true,
           version    : 'v2.0'
         });
